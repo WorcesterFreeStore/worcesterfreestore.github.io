@@ -1,0 +1,3 @@
+[submodule "OpenJSCAD"]
+    path = /
+    url = https://github.com/Spiritdude/OpenJSCAD.org.git
