@@ -29,6 +29,17 @@
 
     <!-- Custom styles for this template -->
     <link href="/css/carousel.css" rel="stylesheet">
+
+    <style>
+    #ourStoreRow {
+      text-align: center;
+    }
+    #mapsContainer {
+      margin-top: 32px;
+      margin-bottom: 32px;
+    }
+    </style>
+
   </head>
 <!-- NAVBAR
 ================================================== -->
@@ -171,8 +182,8 @@
     <div class="container marketing">
 
       <!-- Three columns of text below the carousel -->
-      <div class="row">
-        <div class="col-lg-4">
+      <div class="row" id="ourStoreRow">
+        <div class="col-lg-6">
           <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
           <h2>Hours and Directions</h2>
           <p>We are located at 13 Cambridge St, Worcester MA.</p>
@@ -180,29 +191,22 @@
 		  <p>Tuesday 3-7</p>
 		  <p>Friday 10-2</p>
 		  <p>Saturday 12-4</p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
+        </div><!-- /.col-lg-6 -->
+        <div class="col-lg-6">
           <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
           <h2>Bus Routes</h2>
           <p>#27 bus to Stafford St + Grandview Ave. Walk 8 minutes to 13 Cambridge Street.</p>
 		  <p>#19 bus to Main St + Stearns St. Walk 12 minutes to 13 Cambridge Street</p>
 		  <p>#33 bus to Main St + Ludlow St. Walk 11 minutes to 13 Cambridge Street.</p>
-        </div><!-- /.col-lg-4 -->
-		<div class="col-lg-4">
-          <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-          <h2>Our New Space</h2>
-          <p>We are excited to announce that we are moving to a larger space. May 28th from 12-4pm we will be having our grand opening. Please come join us at 97 webster st.</p>
-        </div><!-- /.col-lg-4 -->
-        		</div><!-- /.col-lg-4 -->
+        </div><!-- /.col-lg-6 -->
+</div>
 
-      </div><!-- /.row -->
-
-	  <div align="middle">
+	  <div id="mapsContainer" align="middle">
 	  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2954.12591111434!2d-71.85521968450846!3d42.2331229511009!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e40474235a1ac5%3A0xdb99b7cd28dd2410!2sWorcester+Free+Store!5e0!3m2!1sen!2sus!4v1462808089592" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 	</div>
 	   
 	   
-	   <li class="span4">
+	   <li style="list-style-type: none;" class="span4">
                 <div class="thumbnail" align=middle>
 				    <h2>Hours Breakdown</h2>
 				<iframe width='1000' height='400' src="https://docs.google.com/spreadsheets/d/15y0ATXtfSNwrc2XaWMOyn-TBTS2PIgqiCiYTHEQHyts/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>	
@@ -215,7 +219,7 @@
               </li>
 	   
 	   <div align="middle">
-	  <li><a href="/shopping/store checkout.html">Store Checkout Form</a></li>
+	  <li style="list-style-type: none;"><a href="/shopping/store checkout.html">Store Checkout Form</a></li>
 	  </div>
       <!-- FOOTER -->
       <footer>
