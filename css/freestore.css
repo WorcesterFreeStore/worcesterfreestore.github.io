@@ -1,2 +1,7 @@
 /** site-wide custom styles */
 
+/** site footer is always centered */
+footer {
+	margin-top: 30px;
+	text-align: center;
+}
