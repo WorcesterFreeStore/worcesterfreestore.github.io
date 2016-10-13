@@ -48,11 +48,13 @@
     <!-- Custom styles for this template -->
     <link href="/css/freestore.css" rel="stylesheet"> <!-- our custom styles -->
     <link href="/css/carousel.css" rel="stylesheet">
-    <script type="text/javascript">
-      window.onload = function() {
-
-      };
-    </script>
+    <style>
+    #leftCol {text-align: center;}
+    #leftCol p {
+      margin-top: 15px;
+      /*text-align: left !important;*/
+    }
+    </style>
   </head>
 <!-- NAVBAR
 ================================================== -->
@@ -203,14 +205,20 @@
     ================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
 
-    <div class="container marketing">
-    <div id="eventsContainer"> 
+  <div class="container marketing">
 	 
-
+   <div class="row">
+    <div class="col-lg-6" id="leftCol">
+      <h2>Press Contact</h2>
+      <img class="img-circle" src="/images/IMG_9486.jpg" alt="" width="140" height="140">
+      <p>If you have any questions or would like to write about The Free Store, please feel free to get in touch with us at via phone at 508-556-1115 or via email at <a href="mailto:info@worcesterfreestore.org">info@worcesterfreestore.org</a>.</p>
+    </div>
+    <div class="col-lg-6">
+    <h2 style="text-align: center;">In the News</h2>
     <div id="press-link-container" class="list-group">
       <a target = "_blank" href="http://www.countryliving.com/life/a40073/worcester-free-store/" class="list-group-item">
         <h4 class="list-group-item-heading">Country Living</h4>
-        <p class="list-group-item-text">Check Out This Curious New Store Where Everything Is Free</p>
+        <p class="list-group-item-text">Everything in This Massachusetts Thrift Store Is Free</p>
       </a>
       <a target = "_blank" href="http://time.com/money/4517978/free-stuff-worcester-free-store/" class="list-group-item">
         <h4 class="list-group-item-heading">Time</h4>
@@ -225,6 +233,9 @@
         <p class="list-group-item-text">At this new 'store' in Worcester, everything is free</p>
       </a>
     </div>
+    </div>
+    
+   </div>
 
 
       <!-- FOOTER -->
