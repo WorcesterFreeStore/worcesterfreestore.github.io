@@ -5,3 +5,9 @@ footer {
 	margin-top: 30px;
 	text-align: center;
 }
+
+/*centers table elements that are used in PayPal forms*/
+form table {
+	width: 100%;
+	margin-bottom: 5px;
+}
