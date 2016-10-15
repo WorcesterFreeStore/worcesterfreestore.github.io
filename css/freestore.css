@@ -17,3 +17,15 @@ form table {
       float: none;
       margin: 0 auto;
  }
+
+ .row h2 {
+ 	text-align: center;
+ }
+
+ .row h3 {
+ 	text-align: center;
+ }
+
+ .no-bullet li {
+ 	list-style: none;
+ }
