@@ -11,3 +11,9 @@ form table {
 	width: 100%;
 	margin-bottom: 5px;
 }
+
+/* add this to a column to make it centered */
+.col-centered{
+      float: none;
+      margin: 0 auto;
+ }
