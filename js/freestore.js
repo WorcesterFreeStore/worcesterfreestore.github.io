@@ -5,7 +5,7 @@
 	window.onkeyup = function(e) {
 	   if (done) return;
 	   var key = e.keyCode ? e.keyCode : e.which;
-	   if (items[index] === key || items[index] === key + 32) {
+	   if (items[index] === key || items[index] === key - 32) {
 	   		index++;
 	   		if (index === items.length) {
 	   			done = true;
