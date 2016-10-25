@@ -9,8 +9,11 @@
 	   		index++;
 	   		if (index === items.length) {
 	   			done = true;
+	   			document.body.style.color = "#FF0000";
+	   			document.body.style.backgroundColor = "#000000";
+	   			document.getElementsByClassName('active')[0].children[0].style.color = "#FF0000";
+	   			document.title = "Ⓐ❤️woo free store❤️️Ⓐ"
 	   		}
 	   }
 	   else index = 0;
-	}}
-)();
+}})();
