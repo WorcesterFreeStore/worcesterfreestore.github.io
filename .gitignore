@@ -1,9 +1,10 @@
-#basic os stuff
-.DS_Store
 Thumbs.db
+.DS_Store
 
-
-#not sure if we want to check this in yet since people on different platforms can dev the site and change this file
 Gemfile.lock
-.bundle/
+_site
+.sass-cache
+.jekyll-metadata
 vendor/
+.bundle/
+Feed.xml
