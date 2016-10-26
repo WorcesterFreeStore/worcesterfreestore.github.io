@@ -35,3 +35,8 @@ markdown: kramdown
 theme: minima
 exclude:
  - vendor/bundle
+ - "README.md"
+ - "Gemfile"
+ - "Gemfile.lock"
+ - ".gitignore"
+ - "CNAME"
