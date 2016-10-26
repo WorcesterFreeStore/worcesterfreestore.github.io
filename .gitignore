@@ -3,6 +3,7 @@
 Thumbs.db
 
 
-
 #not sure if we want to check this in yet since people on different platforms can dev the site and change this file
 Gemfile.lock
+.bundle/
+vendor/
