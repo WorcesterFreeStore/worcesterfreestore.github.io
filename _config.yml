@@ -23,6 +23,12 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://worcesterfreestore.org" # the base hostname & protocol for your site
 # twitter_username: jekyllrb
 github_username:  worcesterfreestore
+defaults:
+  -
+    scope:
+      path: "" #empty string means all project files
+    values:
+      title: "Worcester Free Store"
 
 # Build settings
 markdown: kramdown
