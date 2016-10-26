@@ -53,6 +53,17 @@
 <!-- NAVBAR
 ================================================== -->
   <body>
+  
+  <!-- loads Facebook JavaScript SDK -->
+  <div id="fb-root"></div>
+      <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>  
+  <!-- end Facebook JavaScript SDK -->
   <div class="navbar-wrapper">
 <div class="container">
   <nav class="navbar navbar-inverse navbar-static-top">
@@ -74,9 +85,6 @@
         <p class="pull-right"><a href="#">Back to Top</a></p>
         <p>&copy; 2016 &middot; Worcester Free Store &middot; 13 Cambridge St, Worcester MA 01603 &middot; 508-556-1115 &middot; Tue 3-7, Fri 10-2, Sat 12-4 &middot; <a href="/about/transparency.html">Privacy</a> <!-- &middot; <a href="/terms.html">Terms</a> --></p>
       </footer>
-
-    </div><!-- /.container -->
-
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
