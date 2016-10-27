@@ -7,4 +7,5 @@ _site
 .jekyll-metadata
 vendor/
 .bundle/
+node_modules/
 Feed.xml
