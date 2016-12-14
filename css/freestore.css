@@ -14,24 +14,24 @@ form table {
 
 /* add this to a column to make it centered */
 .col-centered{
-      float: none;
-      margin: 0 auto;
+	float: none;
+	margin: 0 auto;
  }
 
- .row h2 {
- 	text-align: center;
- }
+.row h2 {
+	text-align: center;
+}
 
- .row h3 {
- 	text-align: center;
- }
+.row h3 {
+	text-align: center;
+}
 
- .no-bullet li {
- 	list-style: none;
- }
+.no-bullet li {
+	list-style: none;
+}
 
 /* sets max content height and scroll sizef for lists in a col-lg-6 (currently done for press links) */
- .list-group.col-lg-6-scroll {
- 	max-height: 316px; /* header for col, and 5 list items w/ header and subtext */
- 	overflow-y: scroll;
- }
+.list-group.col-lg-6-scroll {
+	max-height: 316px; /* header for col, and 5 list items w/ header and subtext */
+	overflow-y: scroll;
+}

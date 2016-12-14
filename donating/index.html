@@ -1,0 +1,112 @@
+---
+layout: default
+title: Donating - Worcester Free Store
+active: donating
+---
+<div class="container marketing">
+<!-- Three columns of text below the carousel -->
+<div class="row" style="text-align: center;">
+   <div class="col-lg-6">
+      <h2>Single Donation</h2>
+      <p>These donations help us pay rent and increase the services we offer to the community.</p>
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+         <input type="hidden" name="cmd" value="_s-xclick">
+         <input type="hidden" name="hosted_button_id" value="KGJV6LA2KQTRE">
+         <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+         <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+      </form>
+   </div>   
+   <div class="col-lg-6">
+      <h2>Montly Donations</h2>
+      <p>Monthly donations will help ensure long term propsperity for the Worcester Free Store.</p>
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+         <input type="hidden" name="cmd" value="_s-xclick">
+         <input type="hidden" name="hosted_button_id" value="87KN6VJ5F7D4W">
+         <table>
+            <tr>
+               <td><input type="hidden" name="on0" value=""></td>
+            </tr>
+            <tr>
+               <td>
+                  <select name="os0">
+                     <option value="Corporate Bronze">$5.00 USD Monthly</option>
+                     <option value="Corporate Silver">$10.00 USD Monthly</option>
+                     <option value="Corporate Gold">$25.00 USD Monthly</option>
+                     <option value="Corporate Platinum">$50.00 USD Monthly</option>
+                  </select>
+               </td>
+            </tr>
+            <tr>
+               <td><input type="hidden" name="on1" value="Business Name">Name</td>
+            </tr>
+            <tr>
+               <td><input type="text" name="os1" maxlength="200"></td>
+            </tr>
+            <tr>
+               <td><input type="hidden" name="on2" value="Business Email">Email</td>
+            </tr>
+            <tr>
+               <td><input type="text" name="os2" maxlength="200"></td>
+            </tr>
+         </table>
+         <input type="hidden" name="currency_code" value="USD">
+         <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_subscribeCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+         <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+      </form>
+   </div>
+</div>
+<div class="row">
+   <div class="col-lg-6">
+      <h2>Donating Items</h2>
+      <p>Donations are currently accepted during store hours <em>{{ site.hours }}</em>. We are currently in the process of restoring our donation bins which will enable us to accept donations from the community with more flexibility.</p>
+      <h4 style="text-align: center;">Frequently Needed Items</h4>
+      <div class="list-group col-lg-6-scroll">
+         <span class="list-group-item">
+            <h4 class="list-group-item-heading">Accessories</h4>
+            <p class="list-group-item-text">Hats, mittens, scarves, ties, socks, purses, wallets, backpacks, bags</p>
+         </span>
+           <span class="list-group-item">
+            <h4 class="list-group-item-heading">Clothing & Shoes</h4>
+            <p class="list-group-item-text">Mens, womens, and childrens clothes and shoes</p>
+         </span>
+           <span class="list-group-item">
+            <h4 class="list-group-item-heading">Electronics</h4>
+            <p class="list-group-item-text">Small electrical toasters, radios, power tools, irons, blenders, mixers, stereos, CD players, speakers, DVD and VCR players, table lamps, floor lamps, humidifiers</p>
+         </span>
+           <span class="list-group-item">
+            <h4 class="list-group-item-heading">Exercise & Outdoor</h4>
+            <p class="list-group-item-text">Bicycles, golf accessories, garden tools</p>
+         </span>
+           <span class="list-group-item">
+            <h4 class="list-group-item-heading">Kids</h4>
+            <p class="list-group-item-text">Toys, games, puzzles, stuffed animals</p>
+         </span>
+           <span class="list-group-item">
+            <h4 class="list-group-item-heading">Kitchen</h4>
+            <p class="list-group-item-text">Pots, pans, utensils, china cups, vases, dishes, cutlery, glassware, silverware, stemware</p>
+         </span>
+        <span class="list-group-item">
+            <h4 class="list-group-item-heading">Knick-knacks</h4>
+            <p class="list-group-item-text">Jewelry, crafts, mugs, candles, pictures/frames, baskets, ornaments, hand tools</p>
+         </span>
+         <span class="list-group-item">
+            <h4 class="list-group-item-heading">Knick-knacks</h4>
+            <p class="list-group-item-text">Jewelry, crafts, mugs, candles, pictures/frames, baskets, ornaments, hand tools</p>
+         </span>
+         <span class="list-group-item">
+            <h4 class="list-group-item-heading">Media</h4>
+            <p class="list-group-item-text">Hardback and paperback books, magazines, records, tapes, CDs, videos, DVDs, computer software</p>
+         </span>
+         <span class="list-group-item">
+            <h4 class="list-group-item-heading">Other Textiles</h4>
+            <p class="list-group-item-text">Bed/bath towels, sheets, blankets, pillows, curtains, tablecloths</p>
+         </span>
+      </div>
+   </div>
+   <div class="col-lg-6">
+      <h2>Bulk Donations and Other Services</h2>
+      <p>
+         If you or your company would like to make a bulk donation or offer any particular servies to the Worcester Free Store please call us at {{ site.phone }} or email us at <a href="mailto:{{ site.email }}">{{ site.email }}</a>.
+      </p>
+   </div>
+</div>

@@ -92,16 +92,11 @@
                            </ul>
                         </li>
                         {% if page.active == "donating" %}
-                        <li class="active dropdown">
+                        <li class="active">
                            {% else %}
-                        <li class="dropdown">
+                        <li class="">
                            {% endif %}
-                           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Donating <span class="caret"></span></a>
-                           <ul class="dropdown-menu">
-                              <li><a href="/donating/item donations.html">Item Donations</a></li>
-                              <li><a href="/donating/personal donations.html">Personal Donations</a></li>
-                              <li><a href="/donating/corporate donations.html">Corporate Donations</a></li>
-                           </ul>
+                           <a href="/donating">Donating</a>
                         </li>
                         {% if page.active =="events" %}
                         <li class="active">{% else %}
